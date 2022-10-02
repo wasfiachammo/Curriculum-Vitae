@@ -16,7 +16,7 @@ var org_content=`
 </p>
 </div>
 `
-fetch(' https://radiant-springs-76444.herokuapp.com/')
+fetch(' https://radiant-springs-76444.herokuapp.com/services')
   .then(response => response.json())
   .then(json => {
     json.Sheet1.forEach(element => {
